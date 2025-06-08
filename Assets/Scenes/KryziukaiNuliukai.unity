@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 49436707}
   - component: {fileID: 49436706}
   m_Layer: 5
-  m_Name: Empty Tile (3)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -253,7 +253,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 222d1ee31063ee144bc1abcc77893906, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc47f4eaca5e1134ea72739fcae070ba, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -285,7 +285,7 @@ GameObject:
   - component: {fileID: 103132075}
   - component: {fileID: 103132078}
   m_Layer: 5
-  m_Name: Empty Tile (1)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -387,7 +387,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 222d1ee31063ee144bc1abcc77893906, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc47f4eaca5e1134ea72739fcae070ba, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -786,7 +786,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 95664783d73adcb4f8d4216a87c109f8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8a6eef0d34cdb1e4bb2499e52e3660b4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -855,7 +855,7 @@ GameObject:
   - component: {fileID: 333136169}
   - component: {fileID: 333136168}
   m_Layer: 5
-  m_Name: Empty Tile (4)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -972,7 +972,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 222d1ee31063ee144bc1abcc77893906, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc47f4eaca5e1134ea72739fcae070ba, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1392,7 +1392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.38823533, g: 0.33333334, b: 0.3647059, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1823,7 +1823,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bdacbf1dd060b3644848590114af28c1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 43964c4d6dcea4a41aef1d2f2f0b510f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1934,7 +1934,7 @@ GameObject:
   - component: {fileID: 959333884}
   - component: {fileID: 959333883}
   m_Layer: 5
-  m_Name: Empty Tile (9)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2051,7 +2051,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 222d1ee31063ee144bc1abcc77893906, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc47f4eaca5e1134ea72739fcae070ba, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2083,7 +2083,7 @@ GameObject:
   - component: {fileID: 1089604247}
   - component: {fileID: 1089604246}
   m_Layer: 5
-  m_Name: Empty Tile (6)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2200,7 +2200,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 222d1ee31063ee144bc1abcc77893906, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc47f4eaca5e1134ea72739fcae070ba, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2232,7 +2232,7 @@ GameObject:
   - component: {fileID: 1094344820}
   - component: {fileID: 1094344819}
   m_Layer: 5
-  m_Name: Empty Tile (8)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2349,7 +2349,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 222d1ee31063ee144bc1abcc77893906, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc47f4eaca5e1134ea72739fcae070ba, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2504,7 +2504,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f6689465d3ffbc34590b891d28a9f09f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff9a54858fe41f148ad494dd5427ab20, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2651,7 +2651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.38823533, g: 0.33333334, b: 0.3647059, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2817,7 +2817,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 59080068e2596c84d96623865c35ef79, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 13a050135cda9c145abde6ccd812d02b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2963,7 +2963,7 @@ GameObject:
   - component: {fileID: 1608707241}
   - component: {fileID: 1608707240}
   m_Layer: 5
-  m_Name: Empty Tile (5)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3080,7 +3080,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 222d1ee31063ee144bc1abcc77893906, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc47f4eaca5e1134ea72739fcae070ba, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3148,9 +3148,9 @@ MonoBehaviour:
   player2InputField: {fileID: 1593017918}
   winnerText: {fileID: 1682327556}
   endGameState: {fileID: 588450764}
-  tilePlayerO: {fileID: 21300000, guid: 59080068e2596c84d96623865c35ef79, type: 3}
-  tilePlayerX: {fileID: 21300000, guid: f6689465d3ffbc34590b891d28a9f09f, type: 3}
-  tileEmpty: {fileID: 21300000, guid: 222d1ee31063ee144bc1abcc77893906, type: 3}
+  tilePlayerO: {fileID: 21300000, guid: 13a050135cda9c145abde6ccd812d02b, type: 3}
+  tilePlayerX: {fileID: 21300000, guid: ff9a54858fe41f148ad494dd5427ab20, type: 3}
+  tileEmpty: {fileID: 21300000, guid: fc47f4eaca5e1134ea72739fcae070ba, type: 3}
   tileList:
   - {fileID: 874360305}
   - {fileID: 735933376}
@@ -3178,7 +3178,7 @@ GameObject:
   - component: {fileID: 1648809365}
   - component: {fileID: 1648809364}
   m_Layer: 5
-  m_Name: Empty Tile (2)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3295,7 +3295,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 222d1ee31063ee144bc1abcc77893906, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc47f4eaca5e1134ea72739fcae070ba, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3427,7 +3427,7 @@ GameObject:
   - component: {fileID: 1837573993}
   - component: {fileID: 1837573992}
   m_Layer: 5
-  m_Name: Empty Tile (7)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3544,7 +3544,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 222d1ee31063ee144bc1abcc77893906, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc47f4eaca5e1134ea72739fcae070ba, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
