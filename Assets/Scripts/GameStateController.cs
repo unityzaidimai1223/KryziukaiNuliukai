@@ -29,11 +29,59 @@ public class GameStateController : MonoBehaviour
     private string playerTurn;                                       
     private string player1Name;                                      
     private string player2Name;                                      
-    private int moveCount;                                           
+    private int moveCount;
+
+
+    public bool isAIActive = false;
 
 
 
-    
+    void CallAIMove()
+    {
+        AI_Easy easy = FindObjectOfType<AI_Easy>();
+        if (easy != null)
+        {
+            Debug.Log("Calling Easy AI");
+            easy.MakeMove();
+            return;
+        }
+
+        AI_Medium medium = FindObjectOfType<AI_Medium>();
+        if (medium != null)
+        {
+            Debug.Log("Calling Medium AI");
+            medium.MakeMove();
+            return;
+        }
+
+        AI_Hard hard = FindObjectOfType<AI_Hard>();
+        if (hard != null)
+        {
+            Debug.Log("Calling Hard AI");
+            hard.MakeMove();
+            return;
+        }
+
+        Debug.Log("❌ No AI script found in scene!");
+    }
+
+
+
+
+    public void UpdatePlayerInput()
+    {
+        if (!isAIActive) return; 
+
+        bool playerTurnIsX = (playerTurn == "X");
+        for (int i = 0; i < tileList.Length; i++)
+        {
+            var button = tileList[i].GetComponentInParent<Button>();
+            button.interactable = playerTurnIsX && (tileList[i].text == "");
+        }
+    }
+
+
+
     private void Start()
     {
         
@@ -82,9 +130,20 @@ public class GameStateController : MonoBehaviour
             playerXIcon.color = inactivePlayerColor;
             playerOIcon.color = activePlayerColor;
         }
+
+        
+        
+
+        UpdatePlayerInput();
+
+        if (isAIActive && playerTurn == "O")
+        {
+            Invoke("CallAIMove", 0.5f);
+        }
+
     }
 
-    
+
     /// <param name="winningPlayer">X O D</param>
     private void GameOver(string winningPlayer)
     {
@@ -118,9 +177,12 @@ public class GameStateController : MonoBehaviour
         {
             tileList[i].GetComponentInParent<TileController>().ResetTile();
         }
+
+        UpdatePlayerInput();
+
     }
 
-    
+
     private void ToggleButtonState(bool state)
     {
         for (int i = 0; i < tileList.Length; i++)
@@ -129,7 +191,7 @@ public class GameStateController : MonoBehaviour
         }
     }
 
-    
+
     public string GetPlayersTurn()
     {
         return playerTurn;
